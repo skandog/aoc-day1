@@ -43,5 +43,7 @@ totals.sort((a, b) => {
 
 console.log(totals[0]);
 
+console.log(totals[0] + totals[1] + totals[2]);
+
 // console.log(numsArr);
 // console.log(groupedCals);
