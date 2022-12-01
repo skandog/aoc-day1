@@ -1,4 +1,4 @@
-export default input = `4601
+const input = `4601
 1583
 2995
 5319
@@ -2251,3 +2251,5 @@ export default input = `4601
 6489
 3794
 6089`;
+
+export default input;
