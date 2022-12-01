@@ -1,19 +1,19 @@
-// import input from "./input.js";
+import input from "./input.js";
 
-const input = `1000
-2000
-3000
+// const input = `1000
+// 2000
+// 3000
 
-4000
+// 4000
 
-5000
-6000
+// 5000
+// 6000
 
-7000
-8000
-9000
+// 7000
+// 8000
+// 9000
 
-10000`;
+// 10000`;
 
 let sorted = input.split("\n\n");
 
@@ -37,9 +37,11 @@ for (let j = 0; j < groupedCals.length; j++) {
   });
 }
 
+totals.sort((a, b) => {
+  return b - a;
+});
 
-
-console.log(totals);
+console.log(totals[0]);
 
 // console.log(numsArr);
 // console.log(groupedCals);
