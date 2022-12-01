@@ -13,8 +13,7 @@ const input = `1000
 8000
 9000
 
-10000
-`;
+10000`;
 
 let sorted = input.split("\n\n");
 
@@ -33,10 +32,14 @@ for (let j = 0; j < groupedCals.length; j++) {
     return parseInt(str);
   });
 
-  totals[j] = groupedCals[j].reduce((total, num) => {
+  totals[j] = numsArr[j].reduce((total, num) => {
     return total + num;
   });
 }
 
-console.log(numsArr);
+
+
+console.log(totals);
+
+// console.log(numsArr);
 // console.log(groupedCals);
